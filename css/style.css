@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 443px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.header {
+    width: 1440px;
+}
+
+.nav-text {
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-right: 30px; 
+}
+
+.nav-text:Hover{
+    color: #d7ac41;
+    text-decoration:none;
+}
+
+.bgimg1 {
+    background-image: url("../img/top-banner.jpg");
+    width: 1440px;
+    height: 758Px;
+}
+
+.banner-text-h1 {
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text-p {
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bgimg2 {
+    background-image: url("../img/about-bg.jpg");
+    width: 1440px;
+    height: 754px;
+}
+
+.about-img {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.the-line {
+    width: 52px;
+    border: solid 1px;
+    color: #d7ac41;
+    margin: 24px 0 40px 0;
+}
+
+.text-style {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+}
+
+.text-style span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about-text {
+    margin-left: 335px;
+}
+
+.bgimg3 {
+    background-image: url("../img/service-bg.jpg");
+    width: 1440px;
+    height: 667px;
+}
+.bgimg3 .the-line {
+    margin: 100px 0 25px 0;
+}
+.service-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-bottom: 40px;
+}
+
+.item {
+    font-size: 16px;
+    color: #6c6c6c;
+    width: 270px;
+    height: 60px;
+    margin: 0 30px 30px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    margin: 0;
+    padding: 0;
+}
+
+.bgimg4 {
+    width: 1440px;
+}
+
+.bgimg4 .the-line {
+    width: 52px;
+    border: solid 1px;
+    color: #d7ac41;
+    margin: 100px 0 25px 0;
+}
+
+.pro-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-bottom: 40px;
+}
+
+.right-card {
+    width: 300px;
+    height: 400px;
+    background-color: #f6f7f8;
+    padding: 60px 0 0 30px;
+}
+
+.right-card h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.right-card .title {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.right-card .skill {
+    font-size: 16px;
+}
+
+.right-card .email {
+    font-size: 16px;
+}
+
+.all-family {
+    width: 270px;
+    height: 60px;
+    font-size: 16px;
+    border: solid 1px;
+    color: #d7ac41;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 100px 0;
+}
+
+.all-family:Hover {
+    color: #d7ac41;
+    text-decoration:none;
+}
+
+.bgimg5 {
+    background-image: url("../img/footer-bg.jpg");
+    width: 1440px;
+    height: 437px;
+}
+
+.bgimg5 .the-line {
+    margin-bottom: 25px;
+}
+
+.connection {
+    padding: 100px 0 0 135px;
+}
+
+.connection h3 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-bottom: 20px;
+}
+
+.connection .email{
+    font-size:  16px;
+    margin-top: 20px;
+}
+
+.connection .base-info {
+    font-size:  16px;
+    margin-top: 20px;
+}
+
+.footer {
+    font-size: 16px;
+    background-color: #2b2c2c;
+    width: 1440px;
+    height: 48px;
+}
+
+.footer-text {
+    margin: auto 0;
+}
