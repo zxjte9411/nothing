@@ -27,7 +27,7 @@
 .bgimg1 {
     background-image: url("../img/top-banner.jpg");
     width: 1440px;
-    height: 758Px;
+    height: 758px;
 }
 
 .banner-text-h1 {
@@ -209,4 +209,188 @@
 
 .footer-text {
     margin: auto 0;
+}
+
+@media (max-width: 768px) {
+    img.logo {
+        width: 221px;
+        height: 40px;
+        /* margin-left: 30px; */
+    }
+
+    .bgimg1 {
+        width: auto;
+        height: 750px;
+    }
+
+    .banner-text-h1 {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .banner-text-p {
+        font-size: 14px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .bgimg2 {
+        width: auto;
+        height: 754px;
+    }
+    
+    .about-img {
+        width: 100px;
+        height: 100px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .the-line {
+        width: 52px;
+        border: solid 1px;
+        color: #d7ac41;
+        margin: 15px 0 25px 0;
+    }
+    
+    .text-style {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+    
+    .text-style span{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .about-text {
+        margin-left: 0;
+    }
+
+    .about-text p {
+        padding: 0 10px;
+        
+    }
+    
+    .bgimg3 {
+        width: auto;
+        height: auto;
+    }
+    .bgimg3 .the-line {
+        margin: 50px 0 25px 0;
+    }
+    .service-text {
+        font-size: 40px;
+        font-weight: 600;
+        color: #4a494b;
+        margin-bottom: 30px;
+    }
+    
+    .item {
+        font-size: 14px; 
+        width: 200px;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    
+    .item p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bgimg4 {
+        width: auto;
+    }
+    
+    .bgimg4 .the-line {
+        width: 52px;
+        border: solid 1px;
+        color: #d7ac41;
+        margin: 100px 0 25px 0;
+    }
+    
+    .pro-text {
+        font-size: 50px;
+        font-weight: 600;
+        color: #4a494b;
+        margin-bottom: 40px;
+    }
+    
+    .right-card {
+        width: 270px;
+        height: 350px;
+        background-color: #f6f7f8;
+        padding: 60px 0 0 30px;
+    }
+    
+    .right-card h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .right-card .title {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    .right-card .skill {
+        font-size: 12px;
+    }
+    
+    .right-card .email {
+        font-size: 12px;
+    }
+    
+    .all-family {
+        margin: 40px 0 20px 0;
+    }
+       
+    .bgimg5 {
+        width: auto;
+        height: auto;
+        padding-top: 1px; 
+    }
+    
+    .bgimg5 .the-line {
+        margin: 0;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+    
+    .connection {
+        padding: 0;
+        padding-left: 20px; 
+    }
+    
+    .connection h3 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #4a494b;
+        margin-bottom: 10px;
+    }
+    
+    .connection .email{
+        font-size:  10px;
+        margin-top: 10px;
+    }
+    
+    .connection .base-info {
+        font-size:  10px;
+        margin-top: 10px;
+    }
+    
+    .footer {
+        font-size: 10px;
+        background-color: #2b2c2c;
+        width: auto;
+        height: 48px;
+    }
+    
+    .footer-text {
+        margin: auto;
+    }
 }
