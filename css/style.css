@@ -215,7 +215,6 @@
     img.logo {
         width: 210px;
         height: 40px;
-        /* margin-left: 30px; */
     }
 
     .bgimg1 {
@@ -225,14 +224,11 @@
 
     .banner-text-h1 {
         font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 5px;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 600;        
     }
     
     .banner-text-p {
-        font-size: 14px;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 14px;        
     }
 
     .bgimg2 {
@@ -249,8 +245,6 @@
     
     .the-line {
         width: 52px;
-        border: solid 1px;
-        color: #d7ac41;
         margin: 15px 0 25px 0;
     }
     
@@ -284,7 +278,6 @@
     .service-text {
         font-size: 40px;
         font-weight: 600;
-        color: #4a494b;
         margin-bottom: 30px;
     }
     
@@ -308,22 +301,18 @@
     
     .bgimg4 .the-line {
         width: 52px;
-        border: solid 1px;
-        color: #d7ac41;
         margin: 100px 0 25px 0;
     }
     
     .pro-text {
         font-size: 50px;
         font-weight: 600;
-        color: #4a494b;
         margin-bottom: 40px;
     }
     
     .right-card {
         width: 270px;
         height: 350px;
-        background-color: #f6f7f8;
         padding: 60px 0 0 30px;
     }
     
